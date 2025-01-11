@@ -66,14 +66,6 @@ body {
     letter-spacing: 1px;
 }
 
-@media(max-width:480px) {
-
-    .form__input,
-    .button {
-        font-size: 12px;
-    }
-}
-
 .form__group {
     position: relative;
     margin-bottom: 32px;
