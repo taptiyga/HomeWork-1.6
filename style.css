@@ -17,6 +17,12 @@ body {
     margin: 0 auto;
 }
 
+@media(max-width:480px) {
+    .wrapper {
+        padding: 15px;
+    }
+}
+
 .main {
     flex: 1 1 auto;
 }
@@ -26,6 +32,12 @@ body {
     margin-bottom: 32px;
     font-family: sans-serif;
     letter-spacing: 1px;
+}
+
+@media(max-width:480px) {
+    .title {
+        margin-bottom: 15px;
+    }
 }
 
 .form,
@@ -38,16 +50,40 @@ body {
     margin-bottom: 15px;
 }
 
+@media(max-width:480px) {
+
+    .form,
+    .item {
+        padding: 20px;
+        margin-bottom: 5px;
+    }
+}
+
 .form__input,
-.form__button {
+.button {
     font-size: 16px;
     font-family: sans-serif;
     letter-spacing: 1px;
 }
 
+@media(max-width:480px) {
+
+    .form__input,
+    .button {
+        font-size: 12px;
+    }
+}
+
 .form__group {
     position: relative;
     margin-bottom: 32px;
+}
+
+@media(max-width:480px) {
+
+    .form__group {
+        margin-bottom: 20px;
+    }
 }
 
 .form__label {
